@@ -43,7 +43,7 @@
               
               font-size: 120px;
   
-              font-family: SuisseIntl-Regular; src: url('SuisseIntl-Regular.otf');
+              font-family: Arial, Helvetica, sans-serif;
               
               display: inline;
               padding-left: 3px; /* (16px * 1.20) * 0.15 */
@@ -66,7 +66,7 @@
           }
       p {
           font-size: 120px;
-          font-family: SuisseIntl-Regular; src: url('SuisseIntl-Regular.otf');
+          font-family: Arial, Helvetica, sans-serif;
           display: inline;
       }
       .journey {
