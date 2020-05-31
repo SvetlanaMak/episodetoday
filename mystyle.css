@@ -22,23 +22,7 @@
     border: 0;
     border-top: 1px solid black; }
    
-  .marquee span {
-  color:black;
-  font-size:150px;
-  display:inline-block;
-  padding-left:100%;
-  -webkit-animation: marquee 15s infinite linear;
-  animation: marquee 15s infinite linear;
-  }
-   
-  @-webkit-keyframes marquee {
-  0%{-webkit-transform: translate(0, 0);}
-  100%{-webkit-transform: translate(100%, 0);}
-  }
-  @keyframes marquee{
-  0%{transform: translate(0, 0);}
-  100%{transform: translate(-100%, 0)}
-  }
+  
           div { 
               
               font-size: 120px;
@@ -50,7 +34,7 @@
               padding-right: 3px;
           }
           a {
-          color: white;
+         
           text-decoration: none;
           vertical-align: middle;
           position: relative;

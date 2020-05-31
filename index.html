@@ -7,7 +7,39 @@
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
-    <div class="marquee"><span>episode / 01 Миша Колобов </span></div>
+    <SCRIPT type='text/javascript'>
+        bannerid = null;
+        ctrlwidth =700;
+        
+        
+        
+        
+        
+        str = "episode / 01 Миша Колобов";
+      function out(msg){
+        msg = " --- "+msg;
+        newmsg = msg;
+        while (newmsg.length < ctrlwidth) {newmsg += msg}
+        document.Outmsg.outmsg.value=newmsg;
+        rollmsg();
+        }
+        function rollmsg(){
+        NowMsg=document.Outmsg.outmsg.value
+        NowMsg=NowMsg.substring(1,NowMsg.length)+NowMsg.substring(0,1)
+        document.Outmsg.outmsg.value = NowMsg
+        bannerid=setTimeout("rollmsg()",100)
+        }
+        document.write ('<FORM NAME="Outmsg">');
+        document.write ('<CENTER><INPUT type="text" NAME="outmsg" VALUE="larger" FONTSIZE="100px" '+str+'" SIZE= '+ctrlwidth+'><br>');
+        
+        document.write ('</FORM>');
+        out(str);
+        </script>
+        </script>
+        
+     
+     
+
     <div class="block_1"></div> <hr />
       <div class="href">
 
