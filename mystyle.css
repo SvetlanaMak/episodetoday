@@ -1,0 +1,92 @@
+.path2 {
+    stroke-dasharray: 4000;
+  /*   stroke-dashoffset: 800; */
+    animation: draw1 2s linear alternate;
+  }
+  
+  @keyframes draw1 {
+    from {
+      stroke-dashoffset: 4000;
+    }
+    to {
+      stroke-dashoffset: 4000;
+    }
+  }
+          .marquee{
+  width:100%;
+  
+  white-space:nowrap;
+  overflow:hidden;
+  }
+  hr { width:100%; height: 1px;
+    border: 0;
+    border-top: 1px solid black; }
+   
+  .marquee span {
+  color:black;
+  font-size:150px;
+  display:inline-block;
+  padding-left:100%;
+  -webkit-animation: marquee 15s infinite linear;
+  animation: marquee 15s infinite linear;
+  }
+   
+  @-webkit-keyframes marquee {
+  0%{-webkit-transform: translate(0, 0);}
+  100%{-webkit-transform: translate(100%, 0);}
+  }
+  @keyframes marquee{
+  0%{transform: translate(0, 0);}
+  100%{transform: translate(-100%, 0)}
+  }
+          div { 
+              
+              font-size: 120px;
+  
+              font-family: SuisseIntl-Regular; src: url('SuisseIntl-Regular.otf');
+              
+              display: inline;
+              padding-left: 3px; /* (16px * 1.20) * 0.15 */
+              padding-right: 3px;
+          }
+          a {
+          color: white;
+          text-decoration: none;
+          vertical-align: middle;
+          position: relative;
+      
+          
+          
+          }
+          .href {
+              display:block; 
+              text-align: center;
+              padding-top: 100px;
+  
+          }
+      p {
+          font-size: 120px;
+          font-family: SuisseIntl-Regular; src: url('SuisseIntl-Regular.otf');
+          display: inline;
+      }
+      .journey {
+  
+    font-size: 30px;
+    display: block;
+    
+    
+  /*   width: 100px; */
+    
+    
+  }
+  container {
+    position: relative;
+  }
+  
+  .hidden {
+    display: none;
+  }
+         
+      body {
+          transition: all 1s;
+      }
