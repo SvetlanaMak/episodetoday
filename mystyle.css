@@ -1,3 +1,9 @@
+body {
+    transition: all 1s;
+    overflow: hidden;
+    
+}
+
 .path2 {
     stroke-dasharray: 4000;
   /*   stroke-dashoffset: 800; */
@@ -12,15 +18,27 @@
       stroke-dashoffset: 4000;
     }
   }
-          .marquee{
-  width:100%;
-  
-  white-space:nowrap;
-  overflow:hidden;
-  }
-  hr { width:100%; height: 1px;
-    border: 0;
-    border-top: 1px solid black; }
+  h1 {
+    font-size: 20vw;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    top: 20vh; right:0;
+    overflow: hidden;
+    pointer-events: none;
+    
+    z-index: 10;
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0%, 0); }
+    100% { transform: translate(-141.5vw, 0); }
+}
+
+
+
    
   
           div { 
@@ -55,8 +73,12 @@
       }
       .journey {
   
-    font-size: 30px;
+    font-size: 25px;
     display: block;
+    text-align: justify;
+    padding-top: 10%;
+    color: black;
+  
     
     
   /*   width: 100px; */
@@ -71,6 +93,4 @@
     display: none;
   }
          
-      body {
-          transition: all 1s;
-      }
+      
