@@ -3,6 +3,10 @@ body {
     overflow: hidden;
     
 }
+.header {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .path2 {
     stroke-dasharray: 4000;
@@ -64,6 +68,8 @@ body {
               display:block; 
               text-align: center;
               padding-top: 100px;
+              filter: blur(0px);
+              position: relative;
   
           }
       p {
@@ -92,5 +98,6 @@ body {
   .hidden {
     display: none;
   }
+  a:hover circle { fill: transparent; stroke: black; stroke-width: 1px; } a:hover text { fill: black;}
          
       

@@ -7,43 +7,39 @@
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
+  <svg style='width: 100%; height: 100%; position:absolute;'>
+    <line x1="0" y1="100%" x2="100%" y2="0"
+        style="stroke:rgb(0,0,0);stroke-width:1"/>
+</svg>
+<div class="header">episode / Женя Болгов  </div>
     
-    
-   
-   
-     
-    
-       
-        
-     
-     
-
-    
-    
-      <div class="href">
+<div class="href">
 
     
   
-
-    <a href="#"  id="bluebutton" style="width: 200px;
-    height: 200px;
-    background: transparent;
-    border-radius: 50%;
-    
-    display: inline-block;
-    
-    
-    ;">
+        <svg width="200" height="200">
+          <style>   
+            .stil {font: italic 40px sans-serif;} 
+          </style>
+    <a href="#"  id="music" ;>
+      <circle cx="100"
+            cy="100"
+            r="100"
+            fill="black" />
+  
+    <text class="stil" x="100"
+          y="100"
+          fill="white"
+          text-anchor="middle"
+          alignment-baseline="middle"
+          >
+      03
+    </text>
     </a>
+        </svg>
+        <div class="text"> </div>
    
-    <a href="#"  id="redbutton" style="width: 0;
-    height: 0;
-    border-top: 100px solid transparent;
-    border-left: 200px solid transparent;
-    border-bottom: 100px solid transparent;
-    display: inline-block;
-    text-align: center;
-    "></a>
+    
     
     <a href="#" id="bgbutton"></a>
 </div>
@@ -55,15 +51,15 @@
   
     <script>
         
-        let bluebutton = document.querySelector("#bluebutton");
+        let music = document.querySelector("#music");
 let container = document.querySelector(".container");
 
-bluebutton.addEventListener("click", function () {
+music.addEventListener("click", function () {
   const hiddenText = document.querySelector('.journey');
   hiddenText.classList.remove('hidden');
 });
 
-let audiobutton = document.querySelector("#redbutton");
+let audiobutton = document.querySelector("#music");
 let audio = document.querySelector("audio");
 audiobutton.addEventListener("click", function () {
   audio.play();
