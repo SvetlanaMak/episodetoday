@@ -71,27 +71,27 @@ a {
     .wrapper {
       width: 320px;
       font-size: 80px;
-      padding: 0px 20px 0px;
+      padding: 0px 0px 0px;
   
       
     }
     span {
-      width: 320px;
-      padding: 400px 0px 20px;
+      width: 300px;
+      padding: 300px 10px 20px 0px;
       
       font-size: 80px;
       display: block;
       text-align: right;
-      line-height: 80px;
+      line-height: 70px;
       
       color: black;
       
     }
     .journey {
-      width: 320px; 
-      margin: 0 auto; 
+      width: 300px; 
+      
       padding: 5px 10px 20px;
-      font-size: 30px;
+      font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
       display: block;
       color: black;
@@ -160,7 +160,7 @@ a {
       color: black;
       
     }
-  }
+  
     .journey {
       width: 600px;  
       padding: 5px 10px 20px;
@@ -174,6 +174,7 @@ a {
     
         display: none;
       }
+    }
 
 
   @media only screen and (min-width:1024px) {
