@@ -146,21 +146,21 @@ body {
 
 
   }
-  @media only screen and (min-width:1920px) {
+  @media only screen and (min-width:1280px) {
 
     .wrapper {
       width: 1000px;
-      font-size: 180px;
+      font-size: 160px;
       padding: 0px 20px 0px;
   
       
     }
     span {
-      width: 1900px;
-      padding: 600px 0px 20px;
+      width: 1230px;
+      padding: 400px 0px 20px;
       
       
-      font-size: 180px;
+      font-size: 160px;
       display: block;
       text-align: right;
       line-height: 170px;
@@ -168,8 +168,19 @@ body {
       color: black;
       
     }
+    .journey {
+      width: 1200px;
+      padding: 0px 20px 20px;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      text-align: justify;
+      color: black;
 
 
   }
+  .hidden {
+    width: 1200px;
+    display: none;
          
       
