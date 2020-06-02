@@ -77,7 +77,7 @@ a {
     }
     span {
       width: 300px;
-      padding: 300px 10px 20px 0px;
+      padding: 320px 10px 20px 0px;
       
       font-size: 80px;
       display: block;
@@ -149,7 +149,7 @@ a {
       
     }
     span {
-      width: 600px;
+      width: 700px;
       padding: 600px 0px 20px;
       
       font-size: 120px;
@@ -162,9 +162,9 @@ a {
     }
   
     .journey {
-      width: 600px;  
+      width: 700px;  
       padding: 5px 10px 20px;
-      font-size: 20px;
+      font-size: 30px;
       font-family: Arial, Helvetica, sans-serif;
       display: block;
       color: black;
@@ -187,8 +187,8 @@ a {
       
     }
     span {
-      width: 1000px;
-      padding: 1000px 0px 20px;
+      width: 980px;
+      padding: 750px 0px 20px 0px;
       
       
       font-size: 180px;
@@ -199,6 +199,19 @@ a {
       color: black;
       
     }
+    .journey {
+      width: 980px;  
+      padding: 5px 0px 20px;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      color: black;
+      text-align: justify;
+    }
+      .hidden {
+    
+        display: none;
+      }
 
 
   }
