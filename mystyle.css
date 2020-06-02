@@ -65,11 +65,11 @@ body {
           
           }
           .href {
-              display:block; 
-              text-align: center;
-              padding-top: 100px;
-              filter: blur(0px);
-              position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+              
+              position: absolute;
   
           }
       p {
@@ -98,6 +98,6 @@ body {
   .hidden {
     display: none;
   }
-  a:hover circle { fill: transparent; stroke: black; stroke-width: 1px; } a:hover text { fill: black;}
+  a:hover circle { fill: transparent; stroke: black; stroke-width: 1px; filter: blur(20px); } a:hover text { fill: black;}
          
       
