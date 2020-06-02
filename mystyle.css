@@ -146,5 +146,30 @@ body {
 
 
   }
+  @media only screen and (min-width:1920px) {
+
+    .wrapper {
+      width: 1000px;
+      font-size: 180px;
+      padding: 0px 20px 0px;
+  
+      
+    }
+    span {
+      width: 1900px;
+      padding: 600px 0px 20px;
+      
+      
+      font-size: 180px;
+      display: block;
+      text-align: right;
+      line-height: 170px;
+      
+      color: black;
+      
+    }
+
+
+  }
          
       
