@@ -4,7 +4,7 @@ body {
     
 }
 .header {
-  font-size: 100px;
+  font-size: 120px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -82,8 +82,9 @@ body {
     font-size: 25px;
     display: block;
     text-align: justify;
-    padding-top: 50%;
+    
     color: black;
+    position: absolute;
   
     
     
@@ -99,5 +100,14 @@ body {
     display: none;
   }
   a:hover circle { fill: transparent; stroke: black; stroke-width: 1px; filter: blur(20px); } a:hover text { fill: black;}
+
+  .text {
+    font-size: 100px;
+    display: block;
+    text-align: left;
+    padding-top: 50%;
+    color: black;
+    position: absolute;
+  }
          
       
