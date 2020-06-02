@@ -3,9 +3,11 @@ body {
     
     
 }
-.header {
-  font-size: 120px;
+.wrapper {
+  padding: 0px 15px 20px;
+  font-size: 90px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: normal;
 }
 
 .path2 {
@@ -26,15 +28,7 @@ body {
     font-size: 20vw;
 }
 
-.title {
-    position: absolute;
-    width: 100%;
-    top: 20vh; right:0;
-    overflow: hidden;
-    pointer-events: none;
-    
-    z-index: 10;
-}
+
 
 @keyframes marquee {
     0%   { transform: translate(0%, 0); }
@@ -45,16 +39,7 @@ body {
 
    
   
-          div { 
-              
-              font-size: 120px;
-  
-              font-family: Arial, Helvetica, sans-serif;
-              
-              display: inline;
-              padding-left: 3px; /* (16px * 1.20) * 0.15 */
-              padding-right: 3px;
-          }
+          
           a {
          
           text-decoration: none;
@@ -72,50 +57,40 @@ body {
               position: absolute;
   
           }
-      p {
-          font-size: 120px;
-          font-family: Arial, Helvetica, sans-serif;
-          display: inline;
-      }
+     
       .journey {
+        width: 100%;
+        padding: 0px 20px 20px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        color: black;
+    
   
-    font-size: 30px;
-    display: block;
-    text-align: justify;
     
     
-    color: black;
-    position: absolute;
   
-    
-    
-  /*   width: 100px; */
     
     
   }
-  container {
-    position: relative;
-  }
+  
   
   .hidden {
+    width: 100%;
     display: none;
   }
   a:hover circle { fill: transparent; stroke: black; stroke-width: 1px; filter: blur(20px); } a:hover text { fill: black;}
 
-  .text {
-    font-size: 120px;
-    display: block;
-    text-align: left;
-    padding-top: 50%;
-    color: black;
-    position: absolute;
-  }
+  
   span {
+    width: 100%;
+    padding: 380px 0px 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 120px;
+    font-size: 90px;
     display: block;
     text-align: right;
-    padding-top: 40%;
+    line-height: 80px;
+    
     color: black;
     
   }
