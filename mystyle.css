@@ -79,7 +79,7 @@ a {
       width: 300px;
       padding: 320px 10px 20px 0px;
       
-      font-size: 80px;
+      font-size: 60px;
       display: block;
       text-align: right;
       line-height: 70px;
@@ -105,17 +105,17 @@ a {
   @media only screen and (min-width:375px) {
 
     .wrapper {
-      width: 350px;
+      width: 375px;
       font-size: 80px;
       padding: 0px 20px 0px;
   
       
     }
     span {
-      width: 350px;
-      padding: 520px 0px 20px;
+      width: 375px;
+      padding: 600px 0px 0px;
       
-      font-size: 90px;
+      font-size: 70px;
       display: block;
       text-align: right;
       line-height: 80px;
