@@ -69,8 +69,8 @@ a {
   @media only screen and (min-width:320px) {
 
     .wrapper {
-      width: 320px;
-      font-size: 80px;
+      width: 300px;
+      font-size: 60px;
       padding: 0px 0px 0px;
   
       
@@ -106,14 +106,14 @@ a {
 
     .wrapper {
       width: 375px;
-      font-size: 80px;
-      padding: 0px 20px 0px;
+      font-size: 70px;
+      padding: 0px 10px 0px;
   
       
     }
     span {
       width: 375px;
-      padding: 600px 0px 0px;
+      padding: 570px 0px 0px;
       
       font-size: 70px;
       display: block;
@@ -218,14 +218,14 @@ a {
   @media only screen and (min-width:1280px) {
 
     .wrapper {
-      width: 1000px;
+      width: 1280px;
       font-size: 140px;
       padding: 0px 20px 0px;
   
       
     }
     span {
-      width: 1230px;
+      width: 1280px;
       padding: 450px 0px 20px;
       
       
