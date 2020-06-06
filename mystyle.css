@@ -75,16 +75,16 @@ a {
 
     .wrapper {
       width: 300px;
-      font-size: 60px;
+      font-size: 70px;
       padding: 0px 10px 0px;
   
       
     }
     span {
       width: 300px;
-      padding: 360px 0px 20px 0px;
+      padding: 410px 0px 20px 0px;
       
-      font-size: 60px;
+      font-size: 70px;
       display: block;
       text-align: right;
       line-height: 60px;
@@ -111,16 +111,16 @@ a {
 
     .wrapper {
       width: 360px;
-      font-size: 70px;
+      font-size: 80px;
       padding: 0px 10px 0px;
   
       
     }
     span {
       width: 360px;
-      padding: 570px 0px 0px;
+      padding: 620px 0px 0px;
       
-      font-size: 70px;
+      font-size: 80px;
       display: block;
       text-align: right;
       line-height: 80px;
@@ -148,16 +148,16 @@ a {
 
     .wrapper {
       width: 600px;
-      font-size: 120px;
+      font-size: 130px;
       padding: 0px 20px 0px;
   
       
     }
     span {
       width: 750px;
-      padding: 650px 0px 20px;
+      padding: 720px 0px 20px;
       
-      font-size: 120px;
+      font-size: 130px;
       display: block;
       text-align: right;
       line-height: 110px;
@@ -193,7 +193,7 @@ a {
     }
     span {
       width: 980px;
-      padding: 750px 0px 20px 0px;
+      padding: 930px 0px 20px 0px;
       
       
       font-size: 180px;
