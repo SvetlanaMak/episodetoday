@@ -82,12 +82,12 @@ a {
     }
     span {
       width: 300px;
-      padding: 440px 0px 20px 0px;
+      padding: 390px 0px 20px 0px;
       
       font-size: 50px;
       display: block;
       text-align: right;
-      line-height: 60px;
+      line-height: 50px;
       
       color: black;
       
@@ -118,12 +118,12 @@ a {
     }
     span {
       width: 360px;
-      padding: 650px 0px 0px;
+      padding: 610px 0px 0px;
       
       font-size: 60px;
       display: block;
       text-align: right;
-      line-height: 80px;
+      line-height: 60px;
       
       color: black;
       
@@ -155,12 +155,12 @@ a {
     }
     span {
       width: 750px;
-      padding: 720px 0px 20px;
+      padding: 600px 0px 20px;
       
       font-size: 130px;
       display: block;
       text-align: right;
-      line-height: 110px;
+      line-height: 130px;
       
       color: black;
       
@@ -193,7 +193,7 @@ a {
     }
     span {
       width: 980px;
-      padding: 980px 0px 20px 0px;
+      padding: 830px 0px 20px 0px;
       
       
       font-size: 160px;
