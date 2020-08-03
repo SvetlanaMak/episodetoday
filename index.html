@@ -5,89 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,">
     <title>episode </title>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+   
     
-</head>
+</head>   
 <body>
-  <svg style='width: 100%; height: 100%; position:absolute;'>
-    <line x1="0" y1="100%" x2="100%" y2="0"
-        style="stroke:rgb(0,0,0);stroke-width:1"/>
-</svg>
-<div class="wrapper">episode </div>
-    
-<div class="href">
+ <audio id="audioPlayer" src="" ></audio>
 
-    
+ <ul id="playlist">
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/Gu9bHKBG_x1O6g">bohemia</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/M9NsauBMoSxO5Q">Миша Колобов</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/Ef4KTZIUS4Wusg">Женя Болгов</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/RXoyJM1VOgg9Og">M.Gaidamaka</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/_qAkqQGdq2SecA">Baster Jazzster</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/3z1wQ7Njl18KcQ">frrra</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/5HjAPuXOqNa3hg">хаос.mp3</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/Q3s6BuojLAGJ0w">Roma Khleb</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/HFWbOqy1VJ8JQQ">Stepan Yakushev</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/ZP9JCRPccT0inA">Misha Sultan</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/jG1B9p9aWHL98A">Vaden</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/rzYmMcJ8IB6T5Q">Monowave</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/7VQXhsNrfaSNvg">EtoEto</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/fLB941KTZ_sT_A">Petr Tiagunin</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/bMrJktAaH613vw">Sestrica</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/LekL-B6aYpX8oA">lovaoya</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/nTaJWMGQl9n9hA">bohemia</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/erJ542W-HxVi2w">u h</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/ivKXekidHVBMgg">Rekk&Kutoboy</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/sOkB5UcCngdP3w">Kot Ag4t</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/gjdyVkV2TVLoZg">Broken Composers</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/_7dOTsGv7kRCQw">Danya Samylkin</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/dfzgtudpvmLGMw">Errortica</a></li>
+     <li><a href="https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/PUVyfYPe6aC6sA">AERE</a></li>
+ </ul>
+ <div> 
+  <button class="play" onclick="document.getElementById('audioPlayer').play()"></button> 
+  <button class="pause" onclick="document.getElementById('audioPlayer').pause()"></button> 
   
-        <svg width="200" height="200">
-          <style>   
-            .stil {font: italic 40px sans-serif;} 
-          </style>
-    <a href="#"  id="music" ;>
-      <circle cx="100"
-            cy="100"
-            r="100"
-            fill="black" />
-  
-    <text class="stil" x="100"
-          y="100"
-          fill="black"
-          text-anchor="middle"
-          alignment-baseline="middle"
-          >
-      24  
-    </text>
-    </a>
-        </svg>
 </div>
-        <span>AERE</span>
-   
-    
-    
-    <a href="#" id="bgbutton"></a>
+ <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+ <script src="audioPlayer.js"></script>
 
-   
-    
-    <audio  src="song.mp3"></audio>
-    <p class="journey hidden">Echo of memories.
-      Appeal to your feelings</p>
+
+<script>
+    audioPlayer ();
   
-    <script>
-        
-        let music = document.querySelector("#music");
-let container = document.querySelector(".container");
 
-music.addEventListener("click", function () {
-  const hiddenText = document.querySelector('.journey');
-  hiddenText.classList.remove('hidden');
-});
-
-let audiobutton = document.querySelector("#music");
-let audio = document.querySelector("audio");
-audiobutton.addEventListener("click", function () {
-  audio.play();
-});
-function getRandomColor() {
-  var letters = "0123456789ABCDEF";
-  var color = "#";
-  for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
-let bgbutton = document.querySelector("#bgbutton");
-let body = document.querySelector("body");
-
-bgbutton.addEventListener("click", function () {
-  body.style.backgroundColor = getRandomColor();
-});
-setInterval(function () {
-  body.style.backgroundColor = getRandomColor();
-}, 1000);
-$('#webTicker').webTicker();
-
-        
-        
-    </script>
-    
+</script> 
 </body>
-</html>

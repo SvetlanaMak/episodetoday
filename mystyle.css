@@ -1,297 +1,55 @@
-* {
-  margin: 0px;
-  padding:0px;
-  box-sizing: border-box;
+div {
+    
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position:absolute;
+  
 }
-body {
-    transition: all 1s;
-    
+button {
+ top:50%;   
+height: 100px;
+width: 100px;
+
+}
+.play {
+    background-color: rgb(255, 0, 234);
+    border-radius: 50%;
+    border-color: transparent;
     
 }
-.wrapper {
-  width: 100%;
-  padding: 0px 10px 20px;
-  font-size: 90px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: normal;
+.pause {
+    background-color:yellow;
+    border-color: transparent;
+}
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+#audioPlayer{
+	width: 600px;
+	height: 60px;
+	margin: 50px auto auto auto;
+  border: solid;
+  background: none;
 }
 
+        #playlist{
+            list-style: none;
 
-a {
-         
-          text-decoration: none;
-          vertical-align: middle;
-          position: relative;
-      
-          
-          
-          }
-          .href {
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            position: absolute;
-  
-          }
-     
-      .journey {
-        width: 100%;
-        padding: 0px 20px 20px;
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        display: block;
-        color: black;
-        text-align: justify;
-    
-  
-    
-    
-  
-    
-    
-  }
-  
-  
-  .hidden {
-    
-    display: none;
-  }
-  a:hover circle { fill: transparent; stroke: black; stroke-width: 1px; filter: blur(20px); } a:hover text { fill: black;}
-
-  
-  span {
-    width: 100%;
-    padding: 380px 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 90px;
-    display: block;
-    text-align: right;
-    line-height: 80px;
-    
-    color: black;
-    
-  }
-  @media only screen and (min-width:320px) {
-
-    .wrapper {
-      width: 300px;
-      font-size: 60px;
-      padding: 0px 10px 0px;
-  
-      
-    }
-    span {
-      width: 300px;
-      padding: 430px 0px 20px 0px;
-      
-      font-size: 60px;
-      display: block;
-      text-align: right;
-      line-height: 50px;
-      
-      color: black;
-      
-    }
-    .journey {
-      width: 300px; 
-      
-      padding: 5px 10px 20px;
-      font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      display: block;
-      color: black;
-      text-align: justify;
-    }
-      .hidden {
-    
-        display: none;
-      }
-    }
-  @media only screen and (min-width:375px) {
-
-    .wrapper {
-      width: 360px;
-      font-size: 70px;
-      padding: 0px 10px 0px;
-  
-      
-    }
-    span {
-      width: 360px;
-      padding: 650px 0px 0px;
-      
-      font-size: 70px;
-      display: block;
-      text-align: right;
-      line-height: 60px;
-      
-      color: black;
-      
-    }
-    .journey {
-      width: 370px; 
-      margin: 0 auto; 
-      padding: 5px 10px 20px;
-      font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      display: block;
-      color: black;
-      text-align: justify;
-    }
-      .hidden {
-    
-        display: none;
-      }
-    }
-    @media only screen and (min-width:414px) {
-
-      .wrapper {
-        width: 400px;
-        font-size: 70px;
-        padding: 0px 10px 0px;
-    
-        
-      }
-      span {
-        width: 400px;
-        padding: 570px 0px 0px;
-        
-        font-size: 70px;
-        display: block;
-        text-align: right;
-        line-height: 60px;
-        
-        color: black;
-        
-      }
-      .journey {
-        width: 400px; 
-        margin: 0 auto; 
-        padding: 5px 10px 20px;
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        display: block;
-        color: black;
-        text-align: justify;
-      }
-        .hidden {
-      
-          display: none;
         }
-      }
-
-  @media only screen and (min-width:768px) {
-
-    .wrapper {
-      width: 600px;
-      font-size: 130px;
-      padding: 0px 20px 0px;
-  
-      
-    }
-    span {
-      width: 750px;
-      padding: 720px 0px 20px;
-      
-      font-size: 130px;
-      display: block;
-      text-align: right;
-      line-height: 130px;
-      
-      color: black;
-      
-    }
-  
-    .journey {
-      width: 700px;  
-      padding: 5px 10px 20px;
-      font-size: 30px;
-      font-family: Arial, Helvetica, sans-serif;
-      display: block;
-      color: black;
-      text-align: justify;
-    }
-      .hidden {
-    
-        display: none;
-      }
-    }
-
-
-  @media only screen and (min-width:1024px) {
-
-    .wrapper {
-      width: 1000px;
-      font-size: 160px;
-      padding: 0px 20px 0px;
-  
-      
-    }
-    span {
-      width: 980px;
-      padding: 970px 0px 20px 0px;
-      
-      
-      font-size: 160px;
-      display: block;
-      text-align: right;
-      line-height: 170px;
-      
-      color: black;
-      
-    }
-    .journey {
-      width: 980px;  
-      padding: 5px 0px 20px;
-      font-size: 30px;
-      font-family: Arial, Helvetica, sans-serif;
-      display: block;
-      color: black;
-      text-align: justify;
-    }
-      .hidden {
-    
-        display: none;
-      }
-
-
-  }
-  @media only screen and (min-width:1280px) {
-
-    .wrapper {
-      width: 1280px;
-      font-size: 140px;
-      padding: 0px 20px 0px;
-  
-      
-    }
-    span {
-      width: 1250px;
-      padding: 450px 0px 20px;
-      
-      
-      font-size: 140px;
-      display: block;
-      text-align: right;
-      line-height: 170px;
-      
-      color: black;
-      
-    }
-    .journey {
-      width: 1250px;
-      padding: 0px 20px 20px;
-      font-size: 30px;
-      font-family: Arial, Helvetica, sans-serif;
-      display: block;
-      text-align: justify;
-      color: black;
-
-
-  }
-  .hidden {
-    width: 1200px;
-    display: none;
-         
-  }  
-}
+        #playlist li a{
+            color: black;
+            text-decoration:none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+        }
+        #playlist .current-song a{
+           color: black;
+           
+           text-underline-position: below;
+           font-style: italic;
+        }
