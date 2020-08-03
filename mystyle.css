@@ -1,11 +1,12 @@
 div {
     
-    left:50%;
-    top:50%;
-    -webkit-transform: translate(-50%, -50%);
-     -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position:fixed;
+    background-color: blue;
+    position: relative;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+    
+
     
   
   
@@ -14,6 +15,7 @@ button {
  top:50%;   
 height: 150px;
 width: 150px;
+
 
 }
 .play {
@@ -32,9 +34,9 @@ ul {
     -moz-columns: 2;
   }
   ul {
-    -webkit-columns: 2 300px;
-    -moz-columns: 2 300px;
-         columns: 2 300px;
+    -webkit-columns: 2 200px;
+    -moz-columns: 2 200px;
+         columns: 2 200px;
   }
 #audioPlayer{
 	width: 600px;
@@ -53,6 +55,7 @@ ul {
             text-decoration:none;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 7vw;
+            
         }
         #playlist .current-song a{
            color: black;
