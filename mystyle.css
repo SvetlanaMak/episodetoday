@@ -1,5 +1,5 @@
 div {
-    
+    width: 100%;
     background-color: blue;
     position: relative;
     
@@ -22,11 +22,13 @@ width: 150px;
     background-color: rgb(255, 0, 234);
     border-radius: 50%;
     border-color: transparent;
+    font-size: 100px;
     
 }
 .pause {
     background-color:yellow;
     border-color: transparent;
+    font-size: 100px;
 }
 ul {
     columns: 2;
