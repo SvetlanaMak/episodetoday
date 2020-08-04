@@ -1,6 +1,6 @@
 div {
    
-    background-color: blue;
+    
     position: relative;
     
     font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +15,7 @@ button {
  top:50%;   
 height: 15vw;
 width: 15vw;
+position: sticky;
 
 
 
@@ -25,7 +26,7 @@ width: 15vw;
     border-radius: 50%;
     border-color: transparent;
     font-size: 100px;
-    float: left;
+    
     
     
 }
@@ -34,7 +35,7 @@ width: 15vw;
     border-color: transparent;
     font-size: 100px;
     border-radius: 30px;
-    float: left;
+    
 }
 ul {
     columns: 2;
@@ -56,6 +57,7 @@ ul {
 
         #playlist{
             list-style: none;
+            list-style-position: outside;
 
         }
         #playlist li a{
