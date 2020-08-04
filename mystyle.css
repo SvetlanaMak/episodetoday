@@ -43,9 +43,9 @@ ul {
     -moz-columns: 2;
   }
   ul {
-    -webkit-columns: 2 200px;
-    -moz-columns: 2 300px;
-         columns: 2 300px;
+    -webkit-columns: 2 100px;
+    -moz-columns: 2 100px;
+         columns: 2 100px;
   }
 #audioPlayer{
 	width: 600px;
@@ -58,13 +58,17 @@ ul {
         #playlist{
             list-style: none;
             list-style-position: outside;
+            float: left;
+            list-style-type: none;
+            padding-left: 5px;
+        
 
         }
         #playlist li a{
             color: black;
             text-decoration:none;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 5vw;
+            font-size: 6vw;
             
         }
         #playlist .current-song a{
